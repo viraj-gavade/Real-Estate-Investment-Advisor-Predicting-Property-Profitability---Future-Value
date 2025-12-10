@@ -52,16 +52,17 @@ mlartifacts/
 mlflow.db
 
 # ========== Model Files (large) ==========
-*.pkl
 *.pickle
-*.joblib
 *.h5
 *.hdf5
 *.onnx
 *.pt
 *.pth
-models/*.pkl
-models/*.joblib
+# The following lines are commented out to allow model files in models/ to be tracked by git
+#*.pkl
+#*.joblib
+#models/*.pkl
+#models/*.joblib
 
 # ========== IDE & Editors ==========
 .vscode/
