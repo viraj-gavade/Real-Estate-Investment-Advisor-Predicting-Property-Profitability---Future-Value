@@ -98,6 +98,7 @@ st.markdown("""
         background-color: #f0f2f6;
         border-radius: 4px 4px 0 0;
         padding: 10px 20px;
+        color: #0a0a0a;
     }
 </style>
 """, unsafe_allow_html=True)
